@@ -71,4 +71,4 @@ ISC License
 
 ## Author
 
-Akhil
+Preeti Dasondhi

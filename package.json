@@ -1,0 +1,32 @@
+{
+    "name": "game",
+    "version": "1.0.0",
+    "description": "tic-tac-toe game",
+    "main": "tic-tac-toe.js",
+    "homepage": "https://akhilub.github.io/tic-tac-toe",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack serve --mode development",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "akhil",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.9",
+        "@babel/preset-env": "^7.26.9",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^10.0.0",
+        "gh-pages": "^6.3.0",
+        "html-webpack-plugin": "^5.6.3",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0"
+    }
+}
